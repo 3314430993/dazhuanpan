@@ -22,7 +22,7 @@
                             <div class="num-item-name">
                                 {{ item.name }}
                                 <img
-                                    :src="item.img"
+                                    :src="(item.img)"
                                     style="width: 20px"
                                     alt=""
                                 />
@@ -187,13 +187,13 @@ import { reactive, ref } from 'vue'
 
 const lotteryList = reactive([
     { desc: 'iphone', img: 'iphone.png' },
-    { name: '优惠券', desc: '10元' },
-    { name: '鼓励奖', desc: '再来一次' },
-    { name: '优惠券', desc: '50元' },
+    { name: '优惠券', desc: '10元', img: '' },
+    { name: '鼓励奖', desc: '再来一次', img: ''  },
+    { name: '优惠券', desc: '50元', img: ''  },
     { desc: '酒店1晚', img: 'hotel.png' },
     { desc: '姐妹花', img: 'sister.png' },
-    { name: '一颗', desc: '悍马糖' },
-    { name: '一瓶', desc: '延时喷雾' }
+    { name: '一颗', desc: '悍马糖', img: ''  },
+    { name: '一瓶', desc: '延时喷雾', img: ''  }
 ])
 
 const state = reactive({
@@ -726,3 +726,4 @@ html,
 
 }
 </style>
+
