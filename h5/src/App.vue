@@ -189,9 +189,9 @@
 import { reactive, ref } from 'vue'
 
 const lotteryList = reactive([
-    { desc: 'iphone', img: 'iphone.png' },
+    { desc: '谢谢参与', img: 'xiaolian.png'  },
     { name: '优惠券', desc: '10元', img: '' },
-    { name: '鼓励奖', desc: '再来一次', img: ''  },
+    { desc: 'iphone', img: 'iphone.png' },
     { name: '优惠券', desc: '50元', img: ''  },
     { desc: '酒店1晚', img: 'hotel.png' },
     { desc: '姐妹花', img: 'sister.png' },
