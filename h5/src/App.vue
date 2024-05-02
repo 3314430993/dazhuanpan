@@ -1,10 +1,10 @@
 <template>
     <div class="app-container">
         <div class="l-lottery">
-            <div style="display:flex; font-size: 40px; justify-content: center; color:#ffe800;height: 80px;align-items: end;">
-                幸运大抽奖
+            <div style="display:flex; font-size: 40px; justify-content: center; color:#ffe800;height: 100px;align-items: end;">
+                <img src="luck.png" style="width: 76%; height: 100px;"/>
             </div>
-            <div style="display:flex; justify-content: center; color:#ffe800;height: 30px;align-items: end;">
+            <div style="display:flex; justify-content: center; color:#ffe800;height: 16px;align-items: end;">
               您有{{state.num}}次抽奖机会
             </div>
             <div class="l-box">
